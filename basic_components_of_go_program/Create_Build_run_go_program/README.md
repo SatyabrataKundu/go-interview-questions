@@ -150,3 +150,4 @@ func main() {
     1. Inside any function
     2. After `import` statement
     3. We should not call the `main` function; Go calls it automatically => Correct
+***
