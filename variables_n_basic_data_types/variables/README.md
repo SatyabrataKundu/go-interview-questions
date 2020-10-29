@@ -12,9 +12,9 @@ e.g. `var !str string`, `var 1str string` => inavlid
 * Variable name should NOT contain _spaces_ or any _special character_ except _underscore_
 
 * We can declare Go variables in multiple ways:
-    * **Normal declaration:** `var i int`
-    * **Short declaration:** `i := 10` => Go can infer type of variable from context
-    * **Multiple variables declaration:** 
+    * **variable declaration:** `var i int`
+    * **short variable declaration:** `i := 10` => Go can infer type of variable from context
+    * **multiple variables declaration:** 
     ```golang
     ....
     ...
