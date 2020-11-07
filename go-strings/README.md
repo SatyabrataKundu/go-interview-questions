@@ -31,7 +31,7 @@ func main() {
 * There's no need to use _escape characters_ to declare _multiline strings_ with `raw string literals`
 * In Go, all string literals are `utf-8` encoded
 
-## Runes
+## strings, runes and []byte
 * The `Unicode code points` are represented in go using _rune_ data type (i.e. an alias of _int32_ type)
 * The `Unicode code points` is nothing but a _numerical representation of any unicode character_
 e.g.  The `Unicode code point` for the english letter 'A' is number `65` 
@@ -332,3 +332,4 @@ func main() {
     2. []byte{107, 97, 115, 107, 97 }  
     3. []byte{107, 97, 115, 107, 97, 107 }
 
+***
